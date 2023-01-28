@@ -1,0 +1,35 @@
+# Rules for TechBooster
+meta:
+  reviewer:
+    - kako351
+  related: http://kako351.dev
+  rules:   https://github.com/prh/rules
+
+# techbooster editor lint!!
+# C89 冬コミ開始前時点で利用している版だよ！
+version: 1
+rules:
+  - expected: Kotlin
+    pattern:  kotlin
+  - expected: Android
+    pattern:  android
+  - expected: Compose
+    pattern:  compose
+  - expected: Wear OS 
+    pattern:  wearos
+  - expected: Wear OS 
+    pattern: WearOS
+  - expected: Wear OS 
+    pattern: Wear OS
+  - expected: Wear OS 
+    pattern: Wear Os
+  - expected: Wear OS 
+    pattern: WearOs
+  - expected: Wear OS {$1}
+    pattern: /Wear OS[^ ]./
+  - expected: emulator
+    pattern: emulater
+  - expected: エミュレータ
+    pattern: エミュレーター
+  - expected: できます
+    pattern: 可能です
